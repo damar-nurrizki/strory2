@@ -25,7 +25,7 @@ class Bank {
 const rekening = new Bank(1000000);
 
 rekening.setor(500000);
-rekening.tarik();
+rekening.tarik(200000);
 
 console.log("Saldo terakir: Rp" + rekening.lihatSaldo());
 
